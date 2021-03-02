@@ -1,0 +1,455 @@
+/* INICIO RESET */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+/* FINAL RESET */
+
+
+#global{
+    background-color:rgba(22, 21, 19, 0.8);
+    zoom:0.75;
+    min-width:2000px;
+}
+
+
+/**********************
+******** TODO *********
+***********************/
+#contenedor{
+    margin:auto;
+}
+
+/********************************
+******** BARRA SUPERIOR *********
+********************************/
+#seccion_superior{
+    width:100%;
+}
+
+#barra{
+    background-image: url(../imgs/head3.jpg);
+    background-size:cover;
+    background-position: center bottom;
+    height:18.1em;
+    margin:auto;
+}
+
+#barra_iconos{
+    padding-top: 1em;
+    padding-right:1em;
+    float:right;
+    margin-bottom:5.5em;
+}
+
+#barra_iconos ul{
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+#barra_iconos li{
+    background-color: rgba(243, 236, 236, 0.75);
+    display:inline;
+    padding-right:11px;
+    padding-left:11px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:8px;
+    border-radius:10px;
+}
+
+#barra_iconos li img{
+    margin-bottom: -10px;
+}
+
+
+#barra_iconos ul a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+
+}
+
+#barra_palabras{
+    clear:both;
+}
+
+#barra_palabras ul{
+    margin-bottom:3em;
+    margin-left:-20px;
+}
+
+#barra_palabras li{
+    background-color: rgba(4, 17, 26, 0.75);
+    display:inline;
+    font-family: Helvetica, Courier, monospace;
+    font-weight:bold;
+    padding:40px;
+    margin:-3px;
+    
+}
+
+#barra_palabras li a:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:0.9em;
+}
+
+#barra_palabras li a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:0.9em;
+}
+
+#barra_palabras li a:hover{
+    text-decoration: none;
+    color: rgb(126, 126, 185);
+    font-size:0.9em;
+}
+
+#barra_palabras #icono{
+    margin-top:-32px;
+    margin-bottom:-41px;
+    margin-left:-39px;
+    margin-right:-40px;
+}
+/**********************************
+******** SECCION INFERIOR *********
+***********************************/
+#seccion_inferior{
+    width:75%;
+    margin:auto;
+}
+
+/*******************************************
+********** CONTENIDO-PARTE DERECHA *********
+********************************************/
+#contenido{
+    background-color: #050a22;
+    float:right;
+    width: 82%;
+    margin-top: 1%;
+    border-radius:10px;
+    padding-top:1.5em;
+    padding-bottom:1.7em;
+}
+
+#contenido p{
+    color: white;
+    font-size:1.1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-align:justify;
+    padding-left:1.5em;
+    padding-right:1.5em;
+}
+
+#contenido tr{
+    color: white;
+    font-size:1.1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-align:justify;
+    padding-left:1.5em;
+    padding-right:1.5em;
+}
+
+#contenido td{
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-align:center;
+}
+
+#contenido td img{
+    display:block;
+    padding: 1em 1em;
+    margin-bottom: -2em;
+}
+
+
+#contenido .prinquiste{
+    border-radius:40px;
+}
+
+#contenido td .prinquiste{
+    height:11em;
+    display:block;
+    margin:auto;
+}
+
+#contenido td .quiste{
+    height:13em;
+}
+
+#contenido .quiste:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#contenido .identificacion{
+    border-radius:40px;
+}
+
+#contenido td .identificacion{
+    height:9em;
+}
+
+#contenido .identificacion:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#contenido .clasificacion{
+    border-radius:40px;
+}
+
+#contenido td .clasificacion{
+    height:9em;
+}
+
+#contenido .clasificacion:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#contenido .lista_quiste{
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#contenido .revista{
+    width:194px;
+    height:259px;
+}
+
+#contenido .revista_enlace{
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#contenido .seccion_revista{
+    margin-bottom:4em;
+}
+
+#contenido .titulo_revista{
+    text-align:center;
+    margin-top:1em;   
+    font-weight: bold; 
+}
+
+#contenido .revista_enlace:hover{
+    color: rgb(136, 180, 32);
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#contenido ul{
+    list-style:none;
+}
+
+#lista{
+    float:left;
+}
+
+#cuadro{
+    float:right;
+    width:73%;
+    background-color:rgb(26, 24, 24);
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    margin-right:1.5%;
+    padding-top: 1%;
+    border-radius:15px;
+}
+
+#cuadro p a{
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#cuadro p a:hover{
+    color: rgb(56, 216, 69);
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#cuadro table{
+    margin-top: -5em;
+
+}
+
+#cuadro .foto_quiste{
+    border-radius:15px;
+    width:250px;
+    height:250px;
+}
+
+#cuadro .foto_quiste:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.text{
+    color:yellow;
+}
+/*******************************************
+***************** TABLAS *******************
+********************************************/
+#cuadro_tablas{
+    float:right;
+    width:80%;
+    background-color:rgb(26, 24, 24);
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    margin-right:1.5%;
+    padding-top: 1%;
+    border-radius:15px;
+}
+
+#cuadro_tablas p a{
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#cuadro_tablas p a:hover{
+    color: rgb(56, 216, 69);
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#cuadro_tablas a{
+    color: white;
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#cuadro_tablas a:hover{
+    color: rgb(56, 216, 69);
+    font-size:1em;
+    font-family:'Source Sans Pro',sans-serif;
+    text-decoration: none;
+}
+
+#cuadro_tablas td p{
+    color:yellow;
+    font-size:1em;
+}
+
+
+#cuadro_tablas table{
+    margin-top: -5em;
+}
+
+.tablas{
+    display:block;
+    padding-top:5em;
+    border-collapse:separate;
+    border-spacing: 0 2.2em;
+
+}
+
+#comparacion_rsbc p{
+    font-size:0.9em;
+    text-align:center;
+}
+
+
+
+
+
+
+/*******************************************
+******** LATERAL-PARTE IZQUIERDA ***********
+********************************************/
+#lateral{
+    float:left;
+    width:17%;
+    margin-bottom:3em;
+}
+
+#lateral #color{
+    background-color: rgb(147, 201, 111);
+    padding: 8em 2em;
+    margin-bottom: 1em;
+    border-radius:5px;
+}
+
+#lateral li{
+    background-color: rgba(4, 17, 26, 0.75);
+    list-style:none;
+    font-family: Helvetica, Courier, monospace;
+    font-weight: bold;
+    text-align:center;
+    padding: 15px 0px;
+    margin: 3px 0px;
+    border-radius:10px;
+    margin-right:1em;
+}
+
+#lateral a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-size:0.9em;
+}
+
+/*******************************************
+******************* FOOTER *****************
+********************************************/
+#pie{
+    background-color: rgba(4, 17, 26, 0.75);
+    clear:both;
+    border-radius:10px;
+
+}
+
+#pie p{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, Courier, monospace;
+    font-weight:bold;
+    font-size:0.8em;
+    margin-bottom:0.5%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    text-align:right;
+}
