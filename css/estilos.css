@@ -393,7 +393,21 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
     text-align:center;
 }
 
+.tablas .foto_quiste{
+    border-radius:10px;
+    width:50px;
+    height:50px;
+}
 
+.tablas .foto_quiste:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
 
 
 
