@@ -390,17 +390,53 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 }
 
 
+
+
+/**********************************
+CORRESPONDE A LA TABLA DE COMPARACION DE LOS PERIDINIALES
+VOTADINIUM, TRINOVANTEDINIUM, QUINQUECUSPIS Y LEJEUNECYSTA
+**********************************/
+
+.tablas_peridinioid{
+    display:block;
+    padding-top:5em;
+    border-collapse:separate;
+    border-spacing: 0 3em;
+}
+
+.tablas_peridinioid .foto_quiste{
+    border-radius:25px;
+    width:80px;
+    height:80px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.tablas_peridinioid .foto_quiste:hover{
+    position:relative;
+    right:10px;
+    bottom:-20px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+    border-radius:40px;
+}
+
+
+/***************************************************************/
+
+#comparacion_rsbc p{
+    font-size:0.9em;
+    text-align:center;
+}
+
 .tablas{
     display:block;
     padding-top:5em;
     border-collapse:separate;
     border-spacing: 0 2.2em;
 
-}
-
-#comparacion_rsbc p{
-    font-size:0.9em;
-    text-align:center;
 }
 
 .tablas .foto_quiste{
