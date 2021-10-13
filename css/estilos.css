@@ -315,13 +315,21 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 }
 
 #cuadro .foto_quiste:hover{
+    /*
     position:relative;
     top:-25px;
     left:-35px;
-    width:700px;
+    width:850px;
     height:auto;
     display:block;
     z-index:999;
+    */
+    position:relative;
+    width:750px;
+    height:auto;
+    display:block;
+    z-index:999;
+    padding-right:300px;
 }
 
 .text{
@@ -448,8 +456,8 @@ VOTADINIUM, TRINOVANTEDINIUM, QUINQUECUSPIS Y LEJEUNECYSTA
 .tablas .foto_quiste:hover{
     position:relative;
     right:10px;
-    bottom:-20px;
-    width:500px;
+    bottom:-10px;
+    width:550px;
     height:auto;
     display:block;
     z-index:999;
